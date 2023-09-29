@@ -1,0 +1,21 @@
+09.28 7:09 PM
+Unit 2 challenge i
+class Player:
+    def play(self):
+        print("The player is playing cricket.")
+
+class Batsman(Player):
+    def play(self):
+        print("The batsman is batting.")
+
+class Bowler(Player):
+    def play(self):
+        print("The bowler is bowling.")
+
+# Example usage:
+if __name__ == "__main__":
+    batsman = Batsman()
+    bowler = Bowler()
+    
+    batsman.play()
+    bowler.play()
